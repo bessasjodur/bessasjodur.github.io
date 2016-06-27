@@ -96,19 +96,86 @@
 
                     <div class="row">
                         <div class="col-sm-4">
-                            <a href="#" class="btn btn-default btn-xl">Skipulagsskrá</a>
+                            <button type="button" href="#" class="btn btn-default btn-xl" data-toggle="modal" data-target="#skipulagsskraModal">
+                            Skipulagsskrá
+                            </button>
                         </div>
                         <div class="col-sm-4">
-                            <a href="#" class="btn btn-default btn-xl">Stjórn</a>
+                            <button type="button" href="#" class="btn btn-default btn-xl" data-toggle="modal" data-target="#stjornModal">
+                            Stjórn
+                            </button>
                         </div>
                         <div class="col-sm-4">
-                            <a href="#" class="btn btn-default btn-xl">Félagsmenn</a>
+                            <button type="button" href="#" class="btn btn-default btn-xl" data-toggle="modal" data-target="#felagaskraModal">
+                            Félagaskrá
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Skipulagsskrá-modal -->
+    <div class="modal fade" id="skipulagsskraModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Skipulagsskrá</h4>
+          </div>
+          <div class="modal-body">
+            Skipulagsskrá sjóðsins má finna hér.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Loka</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stjórn-modal -->
+    <div class="modal fade" id="stjornModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Stjórn</h4>
+          </div>
+          <div class="modal-body">
+            Stjórn sjóðsins starfsárið 2016-2017 skipa:
+                <ul style="list-style: none;">
+                  <li>Ásgeir Birkisson (formaður)</li>
+                  <li>Vilhjálmur Steingrímsson (ritari)</li>
+                  <li>Sveinn Friðrik Gunnlaugsson (gjaldkeri)</li>
+                  <li>Andrés Þorleifsson (meðstjórnandi)</li>
+                  <li>Ólafur Sveinn Haraldsson (meðstjórnandi)</li>
+                </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Loka</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Félagaskrá-modal -->
+    <div class="modal fade" id="felagaskraModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Skipulagsskrá</h4>
+          </div>
+          <div class="modal-body">
+            Félagaskrá má finna hér. Vinsamlega hafið samband við <a href="mailto:stjorn@bessi.is">stjorn@bessi.is</a> til að koma ábendingum um villur á framfæri.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Loka</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
@@ -202,7 +269,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">asgeir@gmail.com</a></p>
+                    <p><a href="mailto:stjorn@bessi.is">stjorn@bessi.is</a></p>
                 </div>
             </div>
         </div>
