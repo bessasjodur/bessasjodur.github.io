@@ -20,6 +20,15 @@ hr {
     border-width: 3px;
 }
 
+a.light {
+    color: white;
+}
+
+a.light:hover,
+a.light:focus {
+    color: #f0f0f0;
+}
+
 hr.light {
     border-color: #fff;
 }
